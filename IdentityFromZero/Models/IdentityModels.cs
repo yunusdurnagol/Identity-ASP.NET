@@ -25,4 +25,10 @@ namespace IdentityFromZero.Models
         public string FirstName { get; set; }
         public string LastName { get; set; }
     }
+
+    public static class SecurityRole
+    {
+        public const string Admin = "admin";
+        public const string SuperAdmin = "superadmin";
+    }       
 }

@@ -20,5 +20,7 @@ namespace IdentityFromZero.Controllers
         {
             get { return HttpContext.GetOwinContext().Get<ApplicationSignInManager>(); }
         }
-    }
+
+      
+}
 }
